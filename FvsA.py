@@ -100,7 +100,7 @@ for suffix in unique_suffixes:
                         pass
 
 
-#reorder the columns so that the new difference column comes after the actual column in the prefix pair (rathat than all of them at the end)
+#reorder the columns so that the new difference column comes after the actual column in the prefix pair (rather than all of them at the end)
 new_column_order = []
 for col in compare.columns:
     if col in result_columns:
