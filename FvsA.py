@@ -49,7 +49,7 @@ for file_path in file_paths:
 
 root.destroy()
 
-#rename the columns in the two source files based on that mapping file we imported
+#rename the columns in the trading file based on that mapping file we imported
 dictionary = {}
 for i in dfmap.index:
     dictionary.update({dfmap['FLASH'][i] : dfmap['EMAIL'][i]})
