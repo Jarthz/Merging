@@ -27,7 +27,7 @@ try:
     data = pd.read_csv(Flash_file)
     df = pd.DataFrame(data)
 except FileNotFoundError:
-    print(f"trading having saved {Flash_filename}. Check with tech")
+    print(f"trading havent saved {Flash_filename}. Check with tech")
 except Exception as e:
     print("unexpected error when importing flash data", e)
 
